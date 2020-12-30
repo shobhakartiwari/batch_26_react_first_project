@@ -1,13 +1,67 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, ScrollView,Image } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ScrollView>
+    <Text style={{ fontSize: 96 }}>Scroll me plz</Text>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}}/>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Text style={{ fontSize: 96 }}>If you like</Text>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Text style={{ fontSize: 96 }}>Scrolling down</Text>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}}/>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Text style={{ fontSize: 96 }}>What's the best</Text>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Text style={{ fontSize: 96 }}>Framework around?</Text>
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Image source={{uri: "https://i.picsum.photos/id/912/200/300.jpg?hmac=wRzqCXn4iQFYYTjMpB_LljooIBYELbMYz8kUuWS-toc"}}
+        style={{width: 200, height: 200}} />
+    <Text style={{ fontSize: 80 }}>React Native</Text>
+  </ScrollView>  
   );
 }
 
