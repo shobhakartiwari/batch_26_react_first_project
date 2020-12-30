@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, ScrollView,Image } from 'react-native';
-
+//this is called components
 export default function App() {
   return (
     <ScrollView>
